@@ -1,0 +1,214 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+p {
+  margin: 0;
+}
+.material-icons {
+  vertical-align: middle;
+}
+#wrapper {
+  display: none;
+  background: red;
+  height: 913px;
+  width: 737px;
+  position: absolute;
+  left: 30%;
+  top: 40px;
+  background: url('../images/background.png');
+}
+#code {
+  display: none;
+  height: 447px;
+  width: 455px;
+  background: url('../images/code_background.png');
+  position: absolute;
+  top: 200px;
+  left: 125px;
+  box-shadow: 0px 0px 58px 9px rgba(0,0,0,0.6);
+  z-index: 100;
+}
+#code h1 {
+  height: 69px;
+  color: #444;
+  margin: 60px 10px 29px 83px;
+  letter-spacing: 60px;
+}
+#code #small {
+  float: left;
+  width: 250px;
+  margin-left: 21px;
+}
+#code #small li {
+  margin-bottom: 14px;
+  margin-right: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 15px;
+  text-align: center;
+  width: 68px;
+  height: 53px;
+  background: url('../images/button.png');
+}
+li {
+    outline: none !important;
+    user-select: none !important;
+}
+#code #small li:active {
+  background: url('../images/button_active.png');
+}
+#code #large {
+  width: 145px;
+  float: right;
+  margin-right: 19px;
+}
+#code #large li {
+  margin-bottom: 14px;
+  display: list-item;
+  width: 145px;
+  height: 53px;
+  background: url('../images/button_cancel.png');
+}
+#code #large li:active {
+  background: url('../images/button_cancel_active.png');
+}
+#code #large li:nth-child(2) {
+  background: url('../images/button_wrong.png');
+}
+#code #large li:nth-child(2):active {
+  background: url('../images/button_wrong_active.png');
+}
+#code #large li:nth-child(3) {
+  margin-top: 82px;
+  background: url('../images/button_done.png');
+}
+#code #large li:nth-child(3):active {
+  background: url('../images/button_done_active.png');
+}
+#bank {
+  margin: 357px 213px 10px 56px;
+}
+#bank #buttons {
+  padding-top: 50px;
+}
+#bank #buttons li {
+  width: 30px;
+  height: 30px;
+  margin-bottom: 14px;
+}
+#bank #display {
+  display: none;
+}
+#bank #display #header {
+  width: 387px;
+  font-weight: bold;
+  position: absolute;
+  top: 358px;
+  left: 100px;
+}
+#bank #display #header p {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+  color: white;
+}
+#bank #display li {
+  background: #104a65;
+  padding: 4px 0 4px 0;
+  margin: 0 36px 12px 36px;
+  text-align: left;
+  color: white;
+}
+#bank #display span:nth-child(odd) {
+  text-align: right;
+  float: right;
+}
+#bank #take {
+  display: none;
+}
+#bank #loading {
+  display: none;
+}
+#bank #loading img {
+  margin-left: 6px;
+}
+#bank #error {
+  display: none;
+}
+#bank #error img {
+  margin-left: 6px;
+}
+#bank #insert {
+  display: none;
+}
+#card-button {
+  position: absolute;
+  top: 412px;
+  right: 47px;
+  height: 110px;
+  width: 128px;
+}
+#code-button {
+  margin-top: 176px;
+  margin-left: 100px;
+  height: 110px;
+  width: 255px;
+}
+#card {
+  transition: bottom 1.6s ease, height 0.3s ease;
+  height: 150px;
+  width: 94px;
+  background: blue;
+  position: absolute;
+  bottom: -300px;
+  right: 62px;
+  background: url('../images/card.png');
+  z-index: 2;
+}
+#welcome img {
+  margin-left: 6px;
+}
+.card-anim {
+  bottom: 485px !important;
+}
+#money {
+  display: none;
+  position: absolute;
+  height: 145px;
+  width: 306px;
+  top: 648px;
+  left: 124px;
+}
+#receipt {
+  display: none;
+  position: absolute;
+  height: 145px;
+  width: 173px;
+  top: 264px;
+  left: 532px;
+}
+#cardflash {
+  z-index: 1;
+  display: block;
+  position: absolute;
+  height: 112px;
+  width: 149px;
+  top: 408px;
+  left: 552px;
+}
+@media only screen and (max-width: 1325px) {
+  #wrapper {
+    top: -144px !important;
+  }
+}
+@media only screen and (max-height: 768px) {
+  #wrapper {
+    top: -144px !important;
+  }
+}
+

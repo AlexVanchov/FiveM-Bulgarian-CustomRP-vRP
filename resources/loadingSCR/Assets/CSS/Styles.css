@@ -1,0 +1,192 @@
+html {
+	overflow: hidden;
+    background: #020202;
+    cursor: none;
+}
+
+body {
+	margin: 0;
+}
+
+canvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+
+.ACLogo {
+    position: absolute;
+    z-index: 0;
+    width: 250px;
+    right: 150px;
+    top: 90px;
+	transform: rotate(10deg);
+}
+
+.VDO {
+    position: absolute;
+    z-index: 0;
+    width: 900px;
+    height: 500px;
+    top: 40%;
+    left: -25px;
+    margin-top: -157.5px;
+	transform: rotate(5deg);
+	box-shadow: 0px 0px 65px #000;
+}
+
+.cmdBOX {
+    position: relative;
+    background: linear-gradient(0deg, #000, #262626);
+    width: 100%;
+    height: 100%;
+}
+
+.rulesBox {
+	position: absolute;
+	width: 600px;
+	height: 450px;
+	transform: rotate(-10deg);
+	right: -25px;
+	bottom: -150px;
+    font-family: 'Archivo', sans-serif;
+    z-index: 0;
+    margin: 200px auto 0;
+}
+
+.rulesBox:before,
+.rulesBox:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000, #fb0094, #0000ff, #00ff00, #ffff00, #ff0000);
+    background-size: 400%;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    z-index: -1;
+    animation: rulesBox 20s linear infinite;
+}
+
+.rulesBox:after {
+    filter: blur(20px)
+}
+
+@keyframes rulesBox {
+    0% {
+        background-position: 0 0;
+    }
+
+    50% {
+        background-position: 300% 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#OpenMusic {
+    width: 30px;
+    height: 30px;
+    background-color: aqua;
+    position: absolute;
+    z-index: 0;
+    left: 0px;
+    bottom: 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 35px aqua;
+    background-image: url('../IMG/Music.png');
+    background-position: center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+#OpenMusic:hover {
+    background-color: aquamarine;
+    box-shadow: 0px 0px 35px aquamarine;
+}
+
+#ClosMusic {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+    box-shadow: 0px 0px 35px red;
+    background-image: url('../IMG/X.png');
+    background-position: center center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+    pointer-events: none;
+    margin-left: -40px;
+    margin-top: -40px;
+}
+
+.prog {
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+#progressBar[value] {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    top: 0px;
+}
+
+#progressBar[value]::-webkit-progress-bar {
+    background-color: rgb(60,60,60);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+#progressBar::-webkit-progress-value {
+    animation-name: example;
+    animation-duration: 10s;
+    animation-play-state: running;
+    background-size: 60px 30px, 100% 100%, 100% 100%;
+    background: rgb(0, 217, 255);
+    box-shadow: 0px 0px 65px rgb(0, 217, 255);
+}
+
+.NvxLoad {
+    position: absolute;
+    color: white;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(0, 217, 255);
+    text-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 65px rgb(0, 217, 255);
+}
+
+#session {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    display: flex;
+	align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(0, 217, 255);
+    font-size: 50px;
+}
+
+.LoadIMG {
+    display: block;
+    height: 120px;
+}

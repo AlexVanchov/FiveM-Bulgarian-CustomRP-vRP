@@ -1,0 +1,5 @@
+RegisterServerEvent("updateClients")
+AddEventHandler("updateClients", function(test)
+    TriggerClientEvent('changeProximity', -1, test)
+    TriggerClientEvent('chatMessage', -1, '', {255,255,255}, "^3VoiceChat proximity has now been changed to ^4" .. test)
+end)

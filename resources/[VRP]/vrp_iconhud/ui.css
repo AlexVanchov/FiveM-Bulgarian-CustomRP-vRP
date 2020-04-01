@@ -1,0 +1,77 @@
+.container-fluid {
+    margin-top: 48.3vw;
+    margin-right: 1vw;
+    float: right;
+}
+.bar-lifes {
+    position: relative;
+    width: 10vw;
+    height: 2.3vw;
+    border: 0.1vw solid black;
+    margin-bottom: 0.3vw;
+    background-color: rgba(255,255,255,0.2);
+}
+.bar-needs {
+    position: relative;
+    width: 4.9vw;
+    height: 1vw;
+    border: 0.1vw solid black;
+    margin-bottom: 0.3vw;
+    background-color: rgba(255,255,255,0.2);
+    float: right;
+}
+.icon-lifes {
+    background-color: #636363;
+    padding-right: 0.1vw;
+    padding-left: 0.1vw;
+    width: 2.3vw;
+    height: 2.3vw;
+    border-left: black 0.1vw solid;
+    float: right;
+}
+#icon-hunger {
+    background-color: #636363;
+    padding-left: 0.1vw;
+    width: 1vw;
+    height: 0.99vw;
+    border-right: black 0.1vw solid;
+    float: left;
+}
+#icon-thirst {
+    background-color: #636363;
+    padding-right: 0.1vw;
+    width: 1vw;
+    height: 1vw;
+    border-left: black 0.1vw solid;
+    float: right;
+}
+.field-lifes {
+    float: right;
+    height: 100%;
+    width: 7.4vw;
+}
+.field-needs {
+    float: left;
+    height: 100%;
+    width: 3.7vw;
+}
+#hunger {
+    float: left;
+    background-color: #c3471a;
+    height: 100%;
+}
+#thirst {
+    float: right;
+    background-color: #4da8c3;
+    height: 100%;
+}
+#health {
+    background-color: #299a2d;
+    height: 100%;
+    float: right;
+}
+#armor {
+    background-color: #0B639A;
+    height: 100%;
+    float: right;
+}

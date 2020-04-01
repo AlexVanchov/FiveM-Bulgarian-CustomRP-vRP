@@ -1,0 +1,155 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #192a56;
+}
+
+/*Configurações gerais*/
+.container {
+	width: 600px;
+	margin: auto;
+	padding: 10px;
+}
+
+#logo {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,15%);
+}
+
+#main-title {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,50%);
+	font-size: 2.4em;
+	font-family: arvo;
+	color: #dcdde1;
+}
+
+.main {
+	margin-bottom: 5000px;
+}
+
+section {
+	margin-bottom: 5000px;
+}
+
+.job-title {
+	text-align: center;
+	font-family: arvo;
+	color: #dcd;
+}
+
+.extra {
+	padding: 6px;
+}
+/*Fim configurações gerais*/
+
+
+
+
+/*Configurações de linha*/
+.linha {
+	width: 100px;
+	height: 5px;
+	background-color: #7f8fa6;
+	margin: 0 auto;
+	border-radius: 3px;
+}
+
+.peq {
+	width: 40px;
+}
+
+.med {
+	width: 90px;
+}
+.gg {
+	width: 110px;
+}
+
+/*fim da linha*/
+
+
+
+
+/*Configurações de texto*/
+.subtitles {
+	text-align: center;
+	margin-bottom: 4px;
+	font-family: arvo;
+	color: #dcdde1;
+}
+
+.text {
+	text-align: justify;
+	margin-bottom: 13px;
+	color: #f5f6fa;
+	font-family: hind;
+	font-size: 0.95em;
+}
+
+p {
+	text-indent: 30px;
+}
+ol {
+	text-align: center;
+	margin-bottom: 25px;
+	color: #f5f6fa;
+	font-family: hind;
+	font-size: 0.9em;
+}
+/*Fim configurações de texto*/
+
+
+
+/*Galeria de fotos de exemplos*/
+.gallery {
+	display: inline-block;
+}
+
+.in-gallery {
+	margin: 12px 33px 12px 33px;
+	width: 17vw;
+	height: 11vw;
+	transition: .2s;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.in-gallery:hover {
+	box-shadow: 1px 1px 10px 8px #fff;
+}
+/*Fim da galeria*/
+
+
+
+/* Botão Pegar Empregos*/
+.jobget {
+	position: relative;
+	top: 50%;
+	left: 37%;
+	transform: translate(-50%);
+	text-decoration: none;
+	padding: 10px;
+	border: 3px solid #353b48;
+	transition: .5s;
+	font: bold;
+	font-weight: 600;
+	background-color: white;
+	color: #4cd137;
+	cursor: pointer;
+	font-family: arvo;
+	margin: 0 auto;
+}
+
+.jobget:hover {
+	transform: scale(1.2);
+	background-color: #4cd137;
+	color: white;
+}
+/*Fim botão pegar empregos*/

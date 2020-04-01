@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('nui://playerlist/html/font/roboto-condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('nui://playerlist/html/font/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: RGBA(0,0,0,0);
+	padding:0;
+	margin:0;
+}
+
+#playerlist {
+	margin-top:25px;
+	visibility:hidden;
+	font-family: 'Roboto';
+	color:white;
+	position:relative;
+	min-width:500px;
+	width: auto;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+	padding: 20px;
+}
+
+#playerlist .titles {
+	--background-color: rgba(252, 55, 55, 0.87);
+	background-image: url("https://i.imgur.com/pLJdMul.png");
+	background-size: 100%;
+	height: 60px;
+}
+
+#playerlist .player {
+	
+	background-color: rgba(252, 55, 55, 0.5);
+}
+#playerlist  .name {
+	text-align:left;
+}
+#playerlist .player .name {
+	 font-family: 'Roboto';
+    font-size: 90%;
+    font-weight: normal;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+#playerlist .id {
+	width:15px;
+}
+#playerlist .player .id {
+	 font-family: 'Roboto';
+    font-size: 90%;
+    font-weight: normal;
+	padding-top:5px;
+	padding-bottom:5px;
+}

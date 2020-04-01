@@ -1,0 +1,5989 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CAmbientModelSets>
+  <ModelSets>
+    <Item type="CAmbientModelSet">
+      <Name>AIRWORKERS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_AIRWORKER</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ALTRUIST</Name>
+      <Models>
+        <Item>
+          <Name>A_M_O_ACULT_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_ACULT_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_ACULT_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_ACULT_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ARMY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_MARINE_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_MARINE_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_MARINE_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MARINE_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ARMY_FITNESS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_MARINE_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ARMY_GUARD</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_MARINE_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ARMY_MECHANIC</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_ArmyMech_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ARMY_OFFICER</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Marine_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BACKUP_VENDOR</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Latino_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BAR_WORKERS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Linecook</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Barman_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_BusBoy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Waiter_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BASKETBALL_HANGOUT</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Tennis_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StBla_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Beach_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BreakDance_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_SouCent_03</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Beach_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_OLD</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_YOUNG</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Beach_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Sunbathe_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_YOUNG_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_YOUNG_SUNBATHE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="3" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Beach_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_03</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Sunbathe_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_FEMALE_SUNBATHE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="3" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BIRDS</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Crow</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_C_Pigeon</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BIRDS_TELEGRAPH_POLE</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Crow</Name>
+          <Variations type="NULL" />
+          <Probability value="0.200000" />
+        </Item>
+        <Item>
+          <Name>A_C_Pigeon</Name>
+          <Variations type="NULL" />
+          <Probability value="0.600000" />
+        </Item>
+        <Item>
+          <Name>A_C_Seagull</Name>
+          <Variations type="NULL" />
+          <Probability value="0.200000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BMX</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BOUNCER</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Bouncer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Doorman_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BUM</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Skidrow_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BUM_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BUM_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_BUM</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_TrampBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_TrampBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEACH_BUM_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_TrampBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BEV_HILLS_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BUS_STOP</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Gardener_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_LatHandy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>BUSINESSMEN</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CAMPER_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_StWhi_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StWhi_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CAMPER_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_HANGOUT_C</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_LEAN</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Tourist_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Polynesian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Construct_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_SIT_DOWN</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Ktown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SCDressy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_TranVest_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_TranVest_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_F_Y_Lost_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_AirHostess_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Bartender_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Stripper_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Stripper_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_StripperLite</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_SMOKE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Ktown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BodyBuild_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_eastsa_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BusiCas_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Vinewood_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_ArmLieut_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_ChemWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_KorLieut_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Pilot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MovAlien_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MovSpace_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Swat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>U_M_Y_RSRanger_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>U_M_Y_Pogo_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_STAND_IMPATIENT</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCentMC_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Trucker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_USE_ATM</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SCDressy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_F_Y_Lost_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_AirHostess_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Bartender_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_TranVest_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_TranVest_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Stripper_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Stripper_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_StripperLite</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_USE_PHONES</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Ktown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MovAlien_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MovSpace_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Trucker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_USE_PURSE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_WANDER_IDLE_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CANT_WINDOW_SHOP</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Skidrow_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Tramp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_TrampBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_TrampBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CHOPSHOP</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Autoshop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Autoshop_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_XMech_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_XMech_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CLUB_DANCE_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SouCent_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CLUB_DANCE_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Latino_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StLat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_KTown_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CLUB_ROCK_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CLUB_ROCK_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Latino_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>COLLY</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CONSTRUCTION</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Construct_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="2" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="3" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Construct_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="2" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CONST_DRILL</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Construct_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="3" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Construct_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="2" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>COOK</Name>
+      <Models>
+        <Item>
+          <Name>IG_CHEF</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_EYES</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>CYCLIST</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_RoadCyc_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>DELIVERY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_UPS_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_UPS_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>DOCKWORKERS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>DRAG_RACE_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>DRAG_RACE_MALE</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>DRUG_DEALERS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Dealer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>DRUG_DEALERS_HARD</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Skidrow_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MethHead_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_RurMeth_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Dealer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>EPSILON</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Epsilon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Epsilon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Epsilon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>FACTORY_WORKERS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Factory_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Factory_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>FARMER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Farmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>FATTIES</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCentMC_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Tourist_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_AfriAmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Farmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_GenFat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>FIB_AGENT</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_FIBOffice_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_FIBOffice_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>FIB_COMPUTER</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_CIASEC_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>fireman</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Fireman_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>FOREMAN</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Farmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_CntryBar_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>Gang</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_StrPunk_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_StrPunk_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_ARMENIAN</Name>
+      <Models>
+        <Item>
+          <Name>G_M_M_ArmBoss_01</Name>
+          <Variations type="NULL" />
+          <Probability value="0.500000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_ArmGoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_ArmLieut_01</Name>
+          <Variations type="NULL" />
+          <Probability value="0.500000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_ArmGoon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_BIKER</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_Lost_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Lost_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Lost_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_BIKER_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>G_F_Y_Lost_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_BALLAS</Name>
+      <Models>
+        <Item>
+          <Name>A_C_SharkHammer</Name>
+          <Variations type="NULL" />
+          <Probability value="10" />
+        </Item>
+        <Item>
+          <Name>A_C_SharkTiger</Name>
+          <Variations type="NULL" />
+          <Probability value="10" />
+        </Item>
+        <Item>
+          <Name>A_C_Dolphin</Name>
+          <Variations type="NULL" />
+          <Probability value="10" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_BALLAS_BMX</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_BallaEast_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="2" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_BallaOrig_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_C_SharkHammer</Name>
+          <Variations type="NULL" />
+          <Probability value="10" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_BALLAS_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_C_KillerWhale</Name>
+          <Variations type="NULL" />
+          <Probability value="1" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_FAMILY</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_FamCA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_FamDNF_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_FamFOR_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_OG_Boss_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_FAMILY_BMX</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_FamCA_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_FamDNF_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_FamFOR_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_FAMILY_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>G_F_Y_Families_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_KOREAN</Name>
+      <Models>
+        <Item>
+          <Name>G_M_M_ChiBoss_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_ChiGoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_ChiGoon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_M_Korboss_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_KorLieut_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Korean_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Korean_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_SALVA</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaBoss_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_VAGOS</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_MexGoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_MexGoon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_MexGoon_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MexThug_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_VAGOS_BMX</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_MexGoon_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_MexGoon_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MexThug_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GANG_VAGOS_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>G_F_Y_Vagos_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GARDENER</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Gardener_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_LatHandy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Migrant_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LEAF_BLOWER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_MexLabor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Gardener_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_LatHandy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Migrant_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GENERAL_DELIVERY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Gentransport</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GENERAL_STREET</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StWhi_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GENERAL_STREET_OLD</Name>
+      <Models>
+        <Item>
+          <Name>A_M_O_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GENERIC_RICH</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Vinewood_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BusiCas_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GOLF_COUNTRY</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Golfer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Golfer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Golfer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>GUARD</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Prisguard_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HANDY_MAN</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Gaffer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_LatHandy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HARMONY_MALL_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HARMONY_MALL_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HARMONY_MALL_MALE_BMX</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HELI_SWAT</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Swat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HELI_PILOT</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_PILOT_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_TASK</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="-1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HIGH_CLASS_SECURITY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_HighSec_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_HighSec_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HIKER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Hiker_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="2" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hiker_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HIKER_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Hiker_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hiker_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="2" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HILLBILLY</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MethHead_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HILLBILLY_GUARD</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HIPPIE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Hippie_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HIPPIE_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Hippy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HIPSTER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Hipster_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HOMELESS_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HOMELESS_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_O_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HOSPITAL</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Scrubs_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Doctor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HOTEL</Name>
+      <Models>
+        <Item>
+          <Name>S_F_M_Maid_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Gardener_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_LatHandy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Chef_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Waiter_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_BusBoy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Linecook</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>HUMAN_STATUE</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_StrPerf_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>INDIAN</Name>
+      <Models>
+        <Item>
+          <Name>A_F_O_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>Janet</Name>
+      <Models>
+        <Item>
+          <Name>IG_Janet</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>JANITOR</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Janitor</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_TASK</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>JETSKI</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Jetski_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>JEW</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_HasJew_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_HasJew_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>JEWEL_ASS</Name>
+      <Models>
+        <Item>
+          <Name>U_F_Y_JEWELASS_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>JOGGERS</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Fitness_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Fitness_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Runner_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Runner_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Runner_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>JUGGALO</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Juggalo_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Juggalo_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LIFEGUARD</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_BayWatch_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_BayWatch_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LIFEGUARD_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_BayWatch_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LIFEGUARD_MALE</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_BayWatch_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LIFEGUARD_MALE_HELI</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_BayWatch_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_TASK</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LIFEINVADER_GENERAL_STAFF</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_BeachVesp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LOWRIDER_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Latino_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_FatLatin_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>LOWRIDER_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MAID</Name>
+      <Models>
+        <Item>
+          <Name>S_F_M_Maid_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MARIACHI</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Mariachi_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MEDIC</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Paramedic_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_HAND</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MEDICAL</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Doctor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Scrubs_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MEXICAN_WORKER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_MexLabor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MERRYWEATHER</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_BLACKOPS_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_BLACKOPS_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MIGRANT</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Migrant_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_MexLabor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MIGRANT_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Migrant_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MIGRANTS</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_MexLabor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Migrant_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Migrant_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MOTOX_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_MotoX_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MotoX_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MOUNTAIN_BIKER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_DHill_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MOVIE_ACTORS</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_MovAlien_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MovSpace_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MOVIE_SET</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Grip_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MUSCLE_BEACH</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BodyBuild_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MusclBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MusclBeac_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MUSCLE_BEACH_PUSH_UPS</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_MusclBeac_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MusclBeac_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>MUSICIAN</Name>
+      <Models>
+        <Item>
+          <Name>S_M_O_Busker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>OFFICE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BusiCas_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PARK_RANGER</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Ranger_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Ranger_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PATROL</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_MARINE_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_MARINE_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_MARINE_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_MARINE_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Marine_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_BayWatch_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Security_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Sheriff_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PATROL_TORCH</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Security_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_Sheriff_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PAPARAZZI</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Paparazzi_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PEST_CONTROL</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_PestCont_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>P_F_MP</Name>
+      <Models>
+        <Item>
+          <Name>mp_f_freemode_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>P_M_MP</Name>
+      <Models>
+        <Item>
+          <Name>mp_m_freemode_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>P_M_ONE</Name>
+      <Models>
+        <Item>
+          <Name>Player_One</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>P_M_TWO</Name>
+      <Models>
+        <Item>
+          <Name>Player_Two</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>P_M_ZERO</Name>
+      <Models>
+        <Item>
+          <Name>Player_Zero</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POLO</Name>
+      <Models>
+        <Item>
+          <Name>G_M_Y_Pologoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>police</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POLICE_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POLICE_GUARD</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Cop_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_TASK</Component>
+                <DrawableIndex value="2" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut>LOADOUT_POLICE_GUARD</LoadOut>
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POLICE_HIGHWAY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_HWayCop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POLICE_IDLES</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Cop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POSTMAN</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Postal_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Postal_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POT_SMOKERS</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Hippy_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Farmer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Malibu_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_MexLabor_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Polynesian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Skidrow_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SoCenLat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BeachVesp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Beach_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Polynesian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_SouCent_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StBla_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StLat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StWhi_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_StWhi_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_VinDouche_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hippie_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Skidrow_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCentMC_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_F_Y_Vagos_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Azteca_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_BallaEast_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_BallaOrig_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_BallaSout_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_FamCA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_FamDNF_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Korean_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_Lost_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_MexGoon_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_MexGoon_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_SalvaGoon_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_StrPunk_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_M_Y_StrPunk_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POT_SMOKERS_FEMALE_FAT</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_FatWhite_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_FatBla_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Downtown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POWER_WALKER</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Fitness_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Fitness_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Runner_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PRISON</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Prisoner_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_PrisMuscl_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>PROSTITUTE</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Hooker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Hooker_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>QUARRY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>RACE_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_BeachVesp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BeachVesp_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_GenStreet_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>RACE_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>RESTAURANT_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BusiCas_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_KTown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_HasJew_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>RESTAURANT_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Ktown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_Indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SALTON</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_MexCntry_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_RurMeth_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SALTON_BIKER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SALTON_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SAWMILL</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Hillbilly_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_DockWork_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_M_Trucker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SCIENTIST</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Scientist_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SC_PROSTITUTE</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Hooker_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SECURITY</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Security_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>sheriff</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Sheriff_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SHERIFF_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Sheriff_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SHOP_WORKERS</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SKATERS</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Skater_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SKATER_GIRLS</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SKINNY</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_ACULT_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_Salton_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BevHills_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Business_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Gay_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_indian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_MethHead_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_RoadCyc_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SKINNY_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_TrampBeac_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_GenStreet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_ktown_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Fitness_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Fitness_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hippie_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SouCent_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Skater_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Yoga_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>G_F_Y_Vagos_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>STRAWBERRY_HOSPITAL</Name>
+      <Models>
+        <Item>
+          <Name>A_F_M_SouCentMC_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_O_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_O_SouCent_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>STRIP_SC_MALE1</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>STRIP_SC_MALE2</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_SouCent_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_SouCent_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>STRIPPER</Name>
+      <Models>
+        <Item>
+          <Name>S_F_Y_Stripper_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Stripper_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POOLSIDE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Sunbathe_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>POOLSIDE_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SPACE_RANGER</Name>
+      <Models>
+        <Item>
+          <Name>U_M_Y_RSRanger_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_HEAD</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SUNLOUNGER</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_BEACH_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_BEACH_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_HAIR</Component>
+                <DrawableIndex value="3" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SUNLOUNGER_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_BEACH_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_02</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+              <Item>
+                <Component>PV_COMP_LOWR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BEACH_03</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="0" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Sunbathe_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_UPPR</Component>
+                <DrawableIndex value="1" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SURFER</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Surfer_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Sunbathe_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>SWEATSHOP</Name>
+      <Models>
+        <Item>
+          <Name>S_F_M_Sweatshop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_F_Y_Sweatshop_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TANDL</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Vinewood_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>Tennis</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Tennis_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Tennis_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TOPLESS</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Topless_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TOURIST</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_BeachVesp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_StLat_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TOURIST_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Tourist_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_M_Tourist_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TRANS</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_TranVest_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_TranVest_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TRIATHLON_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_EastSA_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Fitness_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>TRIATHLON_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_BEACH_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BeachVesp_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Runner_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_EastSA_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>Trucker</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_Trucker_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>VALET</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Valet_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>Vendors</Name>
+      <Models>
+        <Item>
+          <Name>S_M_M_StrVend_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions>
+              <Item>
+                <Component>PV_COMP_ACCS</Component>
+                <DrawableIndex value="0" />
+                <Restriction>CantUse</Restriction>
+              </Item>
+            </CompRestrictions>
+            <PropRestrictions />
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>S_M_Y_StrVend_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>WALKER_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_EastSA_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>WALKER_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_Polynesian_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BeachVesp_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>WANNABES</Name>
+      <Models>
+        <Item>
+          <Name>A_M_Y_GAY_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Gay_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>WELDING</Name>
+      <Models>
+        <Item>
+          <Name>S_M_Y_Construct_01</Name>
+          <Variations type="CAmbientPedModelVariations">
+            <CompRestrictions />
+            <PropRestrictions>
+              <Item>
+                <PropSlot>ANCHOR_HEAD</PropSlot>
+                <PropIndex value="2" />
+                <Restriction>MustUse</Restriction>
+              </Item>
+            </PropRestrictions>
+            <LoadOut />
+          </Variations>
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>WINERY_FEMALE</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Genhot_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Hipster_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_F_Y_Vinewood_02</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>WINERY_MALE</Name>
+      <Models>
+        <Item>
+          <Name>A_M_M_BevHills_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_BusiCas_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Vinewood_04</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_M_Business_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_VinDouche_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Hipster_03</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>Yoga</Name>
+      <Models>
+        <Item>
+          <Name>A_F_Y_Yoga_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_M_Y_Yoga_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_BOAR</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Boar</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_CAT</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Cat_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_CHICKENHAWK</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Chickenhawk</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_CORMORANT</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Cormorant</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_COW</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Cow</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_CROW</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Crow</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_COYOTE</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Coyote</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DEER</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Deer</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_HUSKY</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Husky</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_POODLE</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Poodle</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_PUG</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Pug</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_RETRIEVER</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Retriever</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_C_Husky</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_ROTTWEILER</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Rottweiler</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_SHEPHERD</Name>
+      <Models>
+        <Item>
+          <Name>A_C_shepherd</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_SMALL</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Poodle</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_C_Pug</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>a_c_westy</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOG_WESTY</Name>
+      <Models>
+        <Item>
+          <Name>a_c_westy</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_DOLPHIN</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Dolphin</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_FISH</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Fish</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_GULL</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Seagull</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_HEN</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Hen</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_MOUNTAIN_LION</Name>
+      <Models>
+        <Item>
+          <Name>A_C_MtLion</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_ORCA</Name>
+      <Models>
+        <Item>
+          <Name>A_C_KillerWhale</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_PIG</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Pig</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_PIGEON</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Pigeon</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_RABBIT</Name>
+      <Models>
+        <Item>
+          <Name>a_c_rabbit_01</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_RAT</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Rat</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_SHARK</Name>
+      <Models>
+        <Item>
+          <Name>A_C_SharkTiger</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_SHARK_ALL</Name>
+      <Models>
+        <Item>
+          <Name>A_C_SharkHammer</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+        <Item>
+          <Name>A_C_SharkTiger</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_SHARK_HAMMERHEAD</Name>
+      <Models>
+        <Item>
+          <Name>A_C_SharkHammer</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_SHARK_TIGER</Name>
+      <Models>
+        <Item>
+          <Name>A_C_SharkTiger</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_STINGRAY</Name>
+      <Models>
+        <Item>
+          <Name>A_C_Stingray</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+    <Item type="CAmbientModelSet">
+      <Name>ANIMAL_WHALE</Name>
+      <Models>
+        <Item>
+          <Name>A_C_HumpBack</Name>
+          <Variations type="NULL" />
+          <Probability value="1.000000" />
+        </Item>
+      </Models>
+    </Item>
+  </ModelSets>
+</CAmbientModelSets>
+#Script Mods Sealife Early Stages Grove St Only ATM

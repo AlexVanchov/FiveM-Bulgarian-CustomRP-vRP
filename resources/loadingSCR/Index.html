@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Bulgarian Custom RP</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Styles.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Neon.css">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/Player.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" type="text/css" href="http://cdn.plyr.io/3.3.21/plyr.css">
+
+	<style>
+		td, th {
+			text-align: left;
+			padding: 8px;
+			border: 1px solid #2b2b2b;
+			color: white;
+		}
+
+		table {
+			width: 100%;
+		}
+	</style>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="Assets/JS/player.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+	<script src="./Assets/JS/config.js" type="text/javascript"></script>
+</head>
+
+<body>
+
+	<canvas></canvas>
+	<canvas></canvas>
+
+	<div class="prog">
+		<progress id="progressBar" min="0" max="100" value="0"></progress>
+		<a class="NvxLoad"><span id="progress-bar-value">0</span>%</a>
+	</div>
+
+	<img src="Assets/IMG/cursor.png" alt="curseur" id="cursor">
+
+	<iframe id="YTvdo" class="VDO" frameborder="0"></iframe>
+
+	<img id="logoSRV" class="ACLogo" alt="Logo - LOS SANTOS RP">
+
+	<div class="rulesBox">
+		<div class="cmdBOX">
+			<table>
+				<tr>
+					<th>
+						● Ползвайте /оос за въпроси
+					</th>
+				</tr>
+				<tr>
+					<th>
+						● Спазвайте правилата
+					</th>
+				</tr>
+				<tr>
+					<th>
+						● F3 за да заключите/откючите колата
+					</th>
+				</tr>
+				<tr>
+					<th>
+						● Микрофонът е задължителен
+					</th>
+				</tr>
+				<tr>
+					<th>
+						● Discord : https://discord.gg/Ngqvtdy
+					</th>
+				</tr>
+				<tr>
+					<td></td>
+				</tr>
+				<tr>
+					<td>
+						Приятна игра от екипа на Custom RP
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+	<div class="logo">
+		<span id="txtRouge" class="open"></span>
+		<span style="margin-top: -50px;" id="txtBleu" class="hrs"></span>
+	</div>
+
+	<div class="MusicPlayer" style="display: none;">
+		<div id="ClosMusic"></div>
+		<div class="container">
+			<div class="column add-bottom">
+				<div id="mainwrap">
+					<div id="nowPlay">
+						<span id="npAction">Pause...</span><span id="npTitle"></span>
+					</div>
+					<div id="audiowrap">
+						<div id="audio0">
+							<audio id="audio1" preload autoplay="true" controls>Your browser does not support HTML5 Audio! ðŸ˜¢</audio>
+						</div>
+						<div id="tracks">
+							<a id="btnPrev">&larr;</a><a id="btnNext">&rarr;</a>
+						</div>
+					</div>
+					<div id="plwrap">
+						<ul id="plList"></ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="session" style="display: none;">
+		<img class="LoadIMG" src="Assets/IMG/Load.gif" alt="Chargement" /><br>
+		<p id="infos"></p>
+	</div>
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.4/howler.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/html5media/1.1.8/html5media.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/plyr/3.3.21/plyr.min.js"></script>
+	<script type="text/javascript" src="Assets/JS/Index.js"></script>
+	<script src="Assets/JS/progressBar.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		function ffalse() {
+			return false;
+		}
+
+		function ftrue() {
+			return true;
+		}
+
+		document.onselectstart = new Function("return false");
+		if (window.sidebar) {
+			document.onmousedown = ffalse;
+			document.onclick = ftrue;
+		}
+	</script>
+
+	<script type="text/javascript">
+		$(document).mousemove(function (e) {
+			$("#cursor").css({
+				left: e.pageX,
+				top: e.pageY
+			});
+		})
+	</script>
+
+	<script type="text/javascript">
+		document.getElementById("txtRouge").innerHTML = red_text
+		document.getElementById("txtBleu").innerHTML = blue_text
+		document.getElementById("logoSRV").setAttribute("src", "Assets/IMG/" + img)
+		document.getElementById("YTvdo").setAttribute("src", "https://www.youtube.com/embed/" + video_ID + "?autoplay=1&loop=1&showinfo=0&rel=0&iv_load_policy=3&fs=0&controls=0")
+	</script>
+</body>
+
+</html>

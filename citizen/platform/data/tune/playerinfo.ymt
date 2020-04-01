@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CTuningFile>
+  <Tunables>
+    <Item type="CPlayerInfo__Tunables">
+      <Name>CPlayerInfo</Name>
+      <EnemyCharging>
+        <fChargeGoalBehindCoverCentralOffset value="1.200000" />
+        <fChargeGoalLateralOffset value="2.000000" />
+        <fChargeGoalRearOffset value="1.000000" />
+        <fChargeGoalMaxAdjustRadius value="1.000000" />
+        <fPlayerMoveDistToResetChargeGoals value="1.200000" />
+      </EnemyCharging>
+      <CombatLoitering>
+        <fPlayerMoveDistToResetLoiterPosition value="5.000000" />
+        <uDistanceCheckPeriodMS value="1000" />
+      </CombatLoitering>
+      <MinVehicleCollisionDamageScale value="0.900000" />
+      <MaxVehicleCollisionDamageScale value="1.000000" />
+      <MaxAngleConsidered value="6.280000" />
+      <MinDotToConsiderVehicleValid value="0.500000" />
+      <MaxDistToConsiderVehicleValid value="5.000000" />
+      <SprintReplenishFinishedPercentage value="0.200000" />
+      <SprintReplenishRateMultiplier value="0.500000" />
+      <SprintReplenishRateMultiplierBike value="0.250000" />
+      <MaxWorldLimitsPlayerX value="999999999" />
+      <MaxWorldLimitsPlayerY value="999999999" />
+      <MinWorldLimitsPlayerX value="-999999999" />
+      <MinWorldLimitsPlayerY value="-999999999" />
+      <MaxTimeToTrespassWhileSwimmingBeforeDeath value="999999999" />
+      <MovementAwayWeighting value="1.000000" />
+      <DistanceWeighting value="2.000000" />
+      <HeadingWeighting value="3.500000" />
+      <CameraWeighting value="1.500000" />
+      <DistanceWeightingNoStick value="2.000000" />
+      <HeadingWeightingNoStick value="1.000000" />
+      <OnFireWeightingMult value="0.500000" />
+      <BikeMaxRestoreDuration value="30.000000" />
+      <BikeMinRestoreDuration value="20.000000" />
+      <BicycleDepletionMinMult value="0.100000" />
+      <BicycleDepletionMidMult value="5.000000" />
+      <BicycleDepletionMaxMult value="10.000000" />
+      <BicycleMinDepletionLimit value="1.000000" />
+      <BicycleMidDepletionLimit value="3.000000" />
+      <BicycleMaxDepletionLimit value="5.000000" />
+      <TimeBetweenSwitchToClearTasks value="2000" />
+      <TimeBetweenShoutTargetPosition value="800" />
+      <TrespassGuardModelName>A_C_SharkTiger</TrespassGuardModelName>
+      <GuardWorldExtents value="false" />
+      <SprintControlData>
+        <Item>
+          <TapAdd value="5.000000" />
+          <HoldSub value="35.000000" />
+          <ReleaseSub value="15.000000" />
+          <Threshhold value="5.000000" />
+          <MaxLimit value="10.000000" />
+          <ResultMult value="0.300000" />
+        </Item>
+        <Item>
+          <TapAdd value="10.000000" />
+          <HoldSub value="30.000000" />
+          <ReleaseSub value="10.000000" />
+          <Threshhold value="3.000000" />
+          <MaxLimit value="10.000000" />
+          <ResultMult value="0.300000" />
+        </Item>
+        <Item>
+          <TapAdd value="4.000000" />
+          <HoldSub value="35.000000" />
+          <ReleaseSub value="15.000000" />
+          <Threshhold value="5.000000" />
+          <MaxLimit value="10.000000" />
+          <ResultMult value="0.300000" />
+        </Item>
+        <Item>
+          <TapAdd value="4.000000" />
+          <HoldSub value="35.000000" />
+          <ReleaseSub value="15.000000" />
+          <Threshhold value="5.000000" />
+          <MaxLimit value="10.000000" />
+          <ResultMult value="1.000000" />
+        </Item>
+      </SprintControlData>
+      <PlayerStatInfos>
+        <Item>
+          <Name>PLAYER_0</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="100.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="100.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="110.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="15.00000" />
+          <MinDiveHeight value="6.000000" />
+          <MaxDiveHeight value="99999.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>PLAYER_1</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="100.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="100.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="120.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="15.000000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="99999.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>PLAYER_2</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="100.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="100.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="100.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="15.000000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="99999.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>MP0_CHAR_TEAM</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="80.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="90.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="100.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="8.500000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="150.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>MP1_CHAR_TEAM</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="80.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="90.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="100.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="8.500000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="150.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>MP2_CHAR_TEAM</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="80.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="90.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="100.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="8.500000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="150.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>MP3_CHAR_TEAM</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="80.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="90.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="100.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="8.500000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="150.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+        <Item>
+          <Name>MP4_CHAR_TEAM</Name>
+          <MinStaminaDuration value="10.000000" />
+          <MaxStaminaDuration value="90.000000" />
+          <MinHoldBreathDuration value="10.000000" />
+          <MaxHoldBreathDuration value="40.000000" />
+          <MinWheelieAbility value="80.000000" />
+          <MaxWheelieAbility value="120.000000" />
+          <MinPlaneControlAbility value="100.000000" />
+          <MaxPlaneControlAbility value="100.000000" />
+          <MinPlaneDamping value="90.000000" />
+          <MaxPlaneDamping value="100.000000" />
+          <MinHeliDamping value="90.000000" />
+          <MaxHeliDamping value="100.000000" />
+          <MinFallHeight value="6.000000" />
+          <MaxFallHeight value="8.500000" />
+          <MinDiveHeight value="5.000000" />
+          <MaxDiveHeight value="150.000000" />
+          <DiveRampPow value="2.000000" />
+        </Item>
+      </PlayerStatInfos>
+    </Item>
+    <Item type="CAnimSpeedUps__Tunables">
+      <Name>CAnimSpeedUps</Name>
+      <MultiplayerClimbStandRateModifier value="1.200000" />
+      <MultiplayerClimbRunningRateModifier value="1.275000" />
+      <MultiplayerClimbClamberRateModifier value="1.275000" />
+      <MultiplayerEnterExitJackVehicleRateModifier value="1.000000" />
+      <MultiplayerLadderRateModifier value="1.400000" />
+      <MultiplayerReloadRateModifier value="1.500000" />
+      <MultiplayerCoverIntroRateModifier value="1.500000" />
+      <MultiplayerIdleTurnRateModifier value="1.000000" />
+      <ForceMPAnimRatesInSP value="false" />
+    </Item>
+  </Tunables>
+</CTuningFile>

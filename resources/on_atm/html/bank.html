@@ -1,0 +1,160 @@
+<!---             
+  /     \  _____     __| _/  ____   \______   \ ___.__.   ____    /     \  _____   _______ |  | __  ____  ________
+ /  \ /  \ \__  \   / __ | _/ __ \   |    |  _/<   |  |  /  _ \  /  \ /  \ \__  \  \_  __ \|  |/ /_/ __ \ \___   /
+/    Y    \ / __ \_/ /_/ | \  ___/   |    |   \ \___  | (  <_> )/    Y    \ / __ \_ |  | \/|    < \  ___/  /    / 
+\____|__  /(____  /\____ |  \___  >  |______  / / ____|  \____/ \____|__  /(____  / |__|   |__|_ \ \___  >/_____ \
+		\/      \/      \/      \/          \/  \/                      \/      \/              \/     \/       \/
+		
+------------------------CREDITS------------------------
+--------       Script made by oMarkez          --------
+--     Script made for Origin Network 24/01/2019     --
+--   Copyright 2019 ©oMarkez. All rights reserved    --
+--    LICENSE: GNU AFFERO GENERAL PUBLIC LICENSE	 --
+-------------------------------------------------------
+
+on_atm
+Copyright (C) 2019  oMarkez
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+!-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/materialize.min.css">
+    <link rel="stylesheet" href="assets/css/bank.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.0.5/howler.core.min.js"></script>
+  </head>
+  <body>
+    <div id="paper">
+      <div id="header">
+        <bigbutton class="btn-flat waves-effect" id="opretkonto">СЪЗДАЙ</bigbutton>
+        <!--<bigbutton class="btn-flat waves-effect" id="login">LOGIN</bigbutton>!-->
+        <leftbutton class="btn-flat waves-effect" id="tilbage">НАЗАД</bigbutton>
+      </div>
+      <div id="content">
+        <div id="home">
+          <p id="welcome">Добре дошли в банка ДСК!</p>
+          <p>Кликнете върху бутона, който ви подхожда.<br />За да завършите транзакция, щракнете върху бутона, който искате да използвате отново</p>
+        </div>
+        <form id="opretkonto-form">
+          <h2>Konto formular</h2>
+          <div class="input-field small">
+            <p class="label">Име: </p>
+            <input class="firstname"/>
+          </div>
+          <div class="input-field small">
+            <p class="label">Фамилия: </p>
+            <input class="lastname"/>
+          </div>
+          <div class="input-field">
+            <p class="label">Номер на сметка</p>
+            <input value="" disabled id="takeAcc"/>
+          </div>
+          <div class="input-field">
+            <p class="label">Организационен номер (празно, ако е неизвестно): </p>
+            <input value="223456-0231" disabled/>
+          </div>
+          <div class="input-field">
+            <p class="label">Вашия пин код(запомнете го):
+            </p>
+            <input type="number" id="bankpinins" maxlength="4" pattern=".{4,}"  pattern="[0-9]" required/>
+          </div>
+        </form>
+        <form id="transaction-form">
+          <h2>Sender</h2>
+          <div class="input-field small">
+            <p class="label">Име</p>
+            <input class="firstname" disabled/>
+          </div>
+          <div class="input-field small">
+            <p class="label">Фамилия</p>
+            <input class="lastname" disabled/>
+          </div>
+          <div class="input-field">
+            <p class="label">Номер на сметка</p>
+            <input id="senderAcc" disabled/>
+          </div>
+          <div class="input-field">
+            <p class="label">Организационен номер (празно, ако е неизвестно):</p>
+            <input disabled/>
+          </div>
+          <h2>Modtager</h2>
+          <div class="input-field">
+            <p class="label">Номер на сметка</p>
+            <input id="receiverAcc" value="" required/>
+          </div>
+          <div class="input-field">
+            <p class="label">Организационен номер (празно, ако е неизвестно):</p>
+            <input id="orgnumb" value=""/>
+          </div>
+          <hr />
+          <div class="input-field">
+            <p class="label">Сума</p>
+            <input id="transfer-amount" pattern="[0-9]" required/>
+          </div>
+          <p class="saldo">Баланс:</p>
+          <p class ="pung">На вас:</p>
+        </form>
+        <form id="take-form">
+          <h2>Депозирай/Изтегли</h2>
+          <div class="input-field small">
+            <p class="label">Име</p>
+            <input class="firstname" disabled/>
+          </div>
+          <div class="input-field small">
+            <p class="label">Фамилия</p>
+            <input class="lastname" disabled/>
+          </div>
+          <div class="input-field">
+            <p class="label">Номер на сметка</p>
+            <input value="" disabled id="takeAcc"/>
+          </div>
+          <div class="input-field">
+            <p class="label">Организационен номер (празно, ако е неизвестно)</p>
+            <input value="223456-0231" disabled/>
+          </div>
+          <hr />
+          <div class="input-field">
+            <p class="label">Сума</p>
+            <input id="take-amount" pattern="[0-9]{3}" required/>
+          </div>
+          <p class="saldo">Баланс:</p>
+          <p class="pung">На вас:</p>
+        </form>
+        <div id="loginsubmit">
+          <loginbutton class="btn-flat waves-effect" id="loginsubmit" onclick="loginPressed()">LOGIN</loginbutton>
+        </div>
+        <div id="opretsubmit">
+          <loginbutton class="btn-flat waves-effect" id="opretsubmit" onclick="opretPressed()">REGISTER</loginbutton>
+        </div>
+        <div id="login-wait">
+          <center><p>Влезте</p></center>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif" title="Logger dig ind" draggable="false"/>
+        </div>
+        <div id="footer">
+          <button class="btn-flat waves-effect" id="deposit">ИНФО</button>
+          <button class="btn-flat waves-effect" id="withdraw">ИЗТЕГЛИ</button>
+          <button class="btn-flat waves-effect" id="transfer">ТРАНСФЕР</button>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.js" type="text/javascript"></script>
+    <script src="assets/js/materialize.js" type="text/javascript"></script>
+    <script src="assets/js/init.js" type="text/javascript"></script>
+    <script src="assets/js/bank.js" type="text/javascript"></script>
+  </body>
+</html>

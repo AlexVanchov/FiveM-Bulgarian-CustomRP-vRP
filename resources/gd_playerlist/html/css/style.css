@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Roboto Condensed';
+    src: url('nui://playerlist/html/font/roboto-condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('nui://playerlist/html/font/roboto-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	background-color: RGBA(0,0,0,0);
+	padding:0;
+	margin:0;
+    overflow: hidden;
+}
+
+#playerlist {
+    border:1px solid black;
+    margin-top: 5px;
+	visibility:hidden;
+	font-family:'Roboto';
+    font-size: 18px;
+	color:white;
+	position:relative;
+	min-width:500px;
+	width: auto;
+	margin-left:auto;
+	margin-right:auto;
+	max-height:1080px;
+	padding: 1px;
+}
+
+#playerlist .titles {
+	background-color: rgba(243, 64, 64, 0.616);
+	margin-bottom:0px;
+}
+
+#playerlist .myedit {
+    background-image: url("https://i.imgur.com/pLJdMul.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100px;
+}
+
+#playerlist .player {
+	background-color: rgba(247, 25, 25, 0.342);
+}
+#playerlist .name {
+	text-align:left;
+}
+#playerlist .player {
+    font-size: 16px;
+    font-weight: normal;
+}
+#playerlist .id {
+	min-width:15px;
+	font-family:'Lucida Console';
+    font-weight: bold;
+}
+#playerlist .player .id, #playerlist .player .time {
+    text-align: right;
+}
+#playerlist .player .title {
+    font-style: italic;
+}
+#playerlist .player .title, #playerlist .player .name {
+    text-shadow:
+    -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;  
+}
+#playerlist .titles .title {
+    text-align: center;
+}
+#playerlist .player .icon {
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url("../img/spritesheet.png");
+    background-size: 820px 860px;
+    background-position: -640px -624px;
+}

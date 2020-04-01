@@ -1,0 +1,120 @@
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="question-container">
+			<!-- header -->
+			<div class="header">
+				<h1>Автошкола CUSTOM RP</h1>
+			</div>
+			<!-- home -->
+			<div class="body home">
+				<div class="content">
+					<!-- ICI BREVE PRESENTATION -->
+					<center>
+						<img src="dmv.png" class="logo">
+						<br>
+						<p class="bold-text">Добре дошли в шофьорската школа
+					</center>
+					<br>
+					<center>Всички граждани на Лос Сантос трябва да преминат изпита за кодекс преди да могат да шофират.
+						<br>Отделете малко време, за да няучите превилата, не отговаряйте на случаен принцип.
+						<br>
+						<br>
+					</center>
+					Теоритична Част
+					<br> - Курса изпитва 50 лв. Парите не се възстановяват, ако не успеете.
+					<br> - Карайте внимателно изпитната кола. Ако и направите нещо ще плащате.
+					<br> - Ако пропуснете теста си за първи път, не можете да я извадите отново, ще трябва да го повторите още един ден.
+					<br>
+					<br> Шофьорски изпит
+					<br> - Практиката струва 100 лв. Парите не се възстановяват, ако не успеете.
+					<br> - Съвет: Обърнете внимание на това, което ви заобикаля и особено за да избегнете инциденти!</p>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnQuestion">Начало</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Прогрес</h2>
+					<progress class="progression" value="0" max="10">
+				</div>
+			</div>
+			<!-- Question-->
+			<div class="body questionnaire-container">
+				<div class="content">
+					<h2 id="questionNumero"></h2>
+					<p id="question"></p>
+					<form class="form" id="question-form">
+						<div>
+							<input type="radio" name="question" id="answerA" value="A">
+							<label class="answerA"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerB" value="B">
+							<label class="answerB"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerC" value="C">
+							<label class="answerC"></label>
+						</div>
+						<div>
+							<input type="radio" name="question" id="answerD" value="D">
+							<label class="answerD"></label>
+						</div>
+						<button type="submit" id="submit" class="submit">Следващ въпрос</button>
+					</form>
+				</div>
+				<div class="barre-progression">
+					<h2>Прогрес</h2>
+					<progress class="progression" value="0" max="10">
+				</div>
+			</div>
+			<!-- Results -->
+			<div class="body resultGood">
+				<div class="content">
+					<center>
+						<p class="bold-text">Приятна работа!</p>
+						<br>
+						<br>Справяхте се добре по време на изпита!
+						<br>
+						<br>Вече можете да затворите този прозорец и да отидете на изпита.
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnClose">Близо</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Прогрес</h2>
+					<progress class="progression" value="10" max="10">
+				</div>
+			</div>
+			<div class="body resultBad">
+				<div class="content">
+					<center>
+						<p class="bold-text">Не успяхте</p>
+						<br>
+						<br>Не сте готови за този тест, опитайте отново, по-късно ...
+						<br>
+						<br>
+					</center>
+				</div>
+				<div class="buttonspot">
+					<a href="#" class="button btnKick">Близо</a>
+				</div>
+				<div class="barre-progression">
+					<h2>Прогрес</h2>
+					<progress class="progression" value="10" max="10">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="questions.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+
+</body>

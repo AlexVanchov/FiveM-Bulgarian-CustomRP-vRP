@@ -1,0 +1,206 @@
+@font-face {
+    font-family: 'neontubes';
+    src: url('https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot');
+    src: url('https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2') format('woff2'),
+         url('https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff') format('woff'),
+         url('https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$clr1: rgb(255,0,60);
+$clr2: rgb(38,149,255);
+
+body {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  background: rgb(3,12,28);
+}
+
+.logo {
+  display: block;
+  position: absolute;
+    top: 50%;
+    right: 50px;
+  transform: translate(-50%,-50%);
+  width: 50vw;
+  height: auto;
+  font-family: "neontubes";
+  font-size: 16vw;
+  text-align: center;
+  white-space: nowrap;
+  
+  span {
+    display: block;
+    position: relative;
+    transform: translateZ(0) translate3D(0,0,0);
+    backface-visibility: hidden;
+    will-change: opacity;
+  }
+  
+  .open {
+    transform: rotate(-1deg);
+    color: scale-color($clr1, $lightness: 85%);
+    text-shadow:
+      0 0 0 transparent,
+      0 0 10px $clr1,
+      /*0 5px 10px rgba(scale-color($clr1, $lightness: -80%),1),*/
+      0 0 20px rgba($clr1,.5),
+      0 0 40px rgba($clr1,1),
+      0 0 100px rgba($clr1,1),
+      0 0 200px rgba($clr1,1),
+      0 0 300px rgba($clr1,1),
+      0 0 500px rgba($clr1,1),
+      0 0 1000px rgba($clr1,1);
+    animation: blink 4s infinite alternate;
+  }
+  .hrs {
+    transform: rotate(1deg);
+    font-size: 11vw;
+    color: scale-color($clr2, $lightness: 80%);
+    text-shadow:
+      0 0 0 transparent,
+      /*0 5px 10px rgba(scale-color($clr2, $lightness: -80%),1),*/
+      0 0 10px $clr2,
+      0 0 20px rgba($clr2,.5),
+      0 0 40px rgba($clr2,1),
+      0 0 100px rgba($clr2,1),
+      0 0 200px rgba($clr2,1),
+      0 0 300px rgba($clr2,1),
+      0 0 500px rgba($clr2,1);
+    animation: buzz 0.01s infinite alternate;
+  }
+}
+
+@keyframes buzz {
+  70% { opacity: 0.80; }
+}
+@keyframes blink {
+  40% { opacity: 1; }
+  42% { opacity: 0.8; }
+  43% { opacity: 1; }
+  45% { opacity: 0.2; }
+  46% { opacity: 1; }
+}
+
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 400px;
+    font-size: 150px;
+  }
+  .logo .hrs { font-size: 103px; }
+}
+
+@font-face {
+  font-family: 'neontubes';
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #030c1c;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 50vw;
+  height: auto;
+  font-family: "neontubes";
+  font-size: 16vw;
+  text-align: right;
+  white-space: nowrap;
+}
+.logo span {
+  display: block;
+  text-align: right;
+  position: relative;
+  -webkit-transform: translateZ(0) translate3D(0, 0, 0);
+          transform: translateZ(0) translate3D(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  will-change: opacity;
+  margin: 0px;
+  right: 0px;
+}
+.logo .open {
+  -webkit-transform: rotate(-1deg);
+          transform: rotate(-1deg);
+  color: #ffd9e2;
+  text-shadow: 0 0 0 transparent, 0 0 10px #ff003c, 0 0 20px rgba(255, 0, 60, 0.5), 0 0 40px #ff003c, 0 0 100px #ff003c, 0 0 200px #ff003c, 0 0 300px #ff003c, 0 0 500px #ff003c, 0 0 1000px #ff003c;
+  -webkit-animation: blink 4s infinite alternate;
+          animation: blink 4s infinite alternate;
+}
+.logo .hrs {
+  -webkit-transform: rotate(1deg);
+          transform: rotate(1deg);
+  font-size: 11vw;
+  color: #d4eaff;
+  text-shadow: 0 0 0 transparent, 0 0 10px #2695ff, 0 0 20px rgba(38, 149, 255, 0.5), 0 0 40px #2695ff, 0 0 100px #2695ff, 0 0 200px #2695ff, 0 0 300px #2695ff, 0 0 500px #2695ff;
+  -webkit-animation: buzz 0.01s infinite alternate;
+          animation: buzz 0.01s infinite alternate;
+}
+
+@-webkit-keyframes buzz {
+  70% {
+    opacity: 0.80;
+  }
+}
+
+@keyframes buzz {
+  70% {
+    opacity: 0.80;
+  }
+}
+@-webkit-keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 600px;
+    font-size: 150px;
+  }
+
+  .logo .hrs {
+    font-size: 103px;
+  }
+}
