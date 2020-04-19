@@ -30,72 +30,16 @@ cfg.garage_types = {
     ["volvo850r"] = {"Volvo 850",2500, ""}
   },
   ["Bicycles"]  = {  -- bikes
-    _config = {vtype="car",blipid=376,blipcolor=2},
+    _config = {vtype="car",blipid=376,blipcolor=2}
     
   },
 
   ["Mid Range"] = { -- 75k price cap
-    _config = {vtype="car",blipid=50,blipcolor=4},
-    ["p207"] = {"Peugeot 207", 3000, ""},
-    ["camry18"] = {"Toyota Camry", 6000, ""},
-    ["sentinel"] = {"Audi S5", 6000, ""},
-    ["audis8om"] = {"Audi S8", 8000, ""},
-	["urban"] = {"Lada Niva",3000, ""},
-	["kuruma"] = {"Lancer Evo",6000, ""},
-	["gl63"] = {"Mercedes GL63",35000, ""},
-	["elegy"] = {"Skyline GTR",16000, ""}
+    _config = {vtype="car",blipid=50,blipcolor=4}
   },
 
   ["Exotic Cars"] = {
-    _config = {vtype="car",blipid=50,blipcolor=5},
-    ["giulia"] = {"Alfa Romeo Giulia",30000, ""},
-    ["stelvio"] = {"Alfa Romeo Stelvio",35000, ""},
-    ["c5rs6"] = {"Audi RS4 Avant",50000, ""},
-    ["rs6pd600"] = {"Audi RS6",63000, ""},
-    ["r8ppi"] = {"Audi R8",80000, ""},
-    ["sq72016"] = {"Audi SQ7",108000, ""}, 
-    ["s4a"] = {"Audi S4",17000, ""},
-    ["e46"] = {"BMW M3 E46",35000, ""},
-    ["bmwm4"] = {"BMW M4 Drift",40000, ""},
-    ["16m5"] = {"BMW M5",35000, ""},
-    ["e60"] = {"BMW M5 E60",30000, ""},
-    ["m516"] = {"BMW M5 Coupe",45000, ""},
-    ["x5e53"] = {"BMW X5",90000, ""},
-    ["x6m"] = {"BMW X6",140000, ""},
-    ["17m760i"] = {"BMW 760 I",35000, ""},
-    ["q30"] = {"Infinity Q30",35000, ""},
-    ["66fastback"] = {"Fastback Drag",14000, "10 - (less numner better car"},
-    ["fpace"] = {"Jaguar F-pace",80000, ""},
-    ["veln"] = {"Hundai Veln",20000, ""},
-    ["p1lm"] = {"MClaren P1",500000, ""},
-    ["kia"] = {"Kia",14000, ""},
-    ["lada"] = {"Lada Tuning",7000, "Not free yet"},
-    ["urus"] = {"Lamborghini Urus",130000, ""},
-	["18performante"] = {"Lamborghini Huracan",340000,""},
-    ["alfieri"] = {"Maserati Alfieri",70000, ""},
-    ["cls2015"] = {"Mercedes-Benz CLS 2015",130000,""},
-    ["s500w222"] = {"Mercedes-Benz S500",30000, ""},
-    ["g65amg"] = {"Mercedes-Benz G65",180000, ""},
-    ["gl63"] = {"Mercedes GL63",700000, ""},
-    ["c63vip"] = {"Mercedes C63 VIP",90000, ""},
-    ["macla"] = {"Mercedes CLA",85000, ""},
-    ["w222wald"] = {"Mercedes WALD",86000, ""},
-    ["370z"] = {"Nissan Nismo 370z",45000, ""},
-    ["patrold"] = {"Nissan Patrol Off-Road",16000, ""},
-    ["pcs18"] = {"Porsche Cayenne",75000, ""},
-    ["panamera18"] = {"Porsche Panamera Turbo",114000, ""},
-	["aperta"] = {"Ferarri Aperta",400000,""},
-    ["f430s"] = {"Ferrary F430s",300000, ""},
-    ["mst"] = {"Ford Mustang Shelby",34000, ""},
-    ["eleanor"] = {"Ford Mustang Shelby GT500",31000, ""},
-    ["rrst"] = {"Range Rover", 120000, ""},
-    --["wraith"] = {"Rolls Royce", 800000, ""},
-    ["exor"] = {"Chevrolet Camaro Tuning",100000, ""},
-    ["ySbrImpS11"] = {"Subaru Impreza",20000, ""},
-    ["sultanrs"] = {"Sultan RS",18000, ""},
-    ["teslax"] = {"Telsa Model X",300000, ""},
-    ["amarok"] = {"Volkswagen Amarok",46000, ""},
-    ["passat"] = {"Volkswagen Passat",34000, ""}
+    _config = {vtype="car",blipid=50,blipcolor=5}
 	
   },
 
@@ -110,39 +54,18 @@ cfg.garage_types = {
   },
 
   ["Starter Vehicles"] = {  -- 15k price cap
-    _config = {vtype="car",blipid=50,blipcolor=4},
-    ["2011mazda2"] = {"Mazda 2",500, ""},
-    ["a3quattro"] = {"Audi A3 2",4000, ""},
-    ["2108"] = {"LADA Спутник",300, ""},
-    ["gx460"] = {"Lexus GX460",4000, ""},
-    ["panto"] = {"Panto", 200, ""}
+    _config = {vtype="car",blipid=50,blipcolor=4}
   },
   ["Formula"] = {  --formula 1
-    _config = {vtype="car",blipid=546,blipcolor=5},
-    ["r15"] = {"Formula 1",1000000, "You can use this car only here(Airport)"}
+    _config = {vtype="car",blipid=546,blipcolor=5}
   },
 
   ["Off Road"] = {
-    _config = {vtype="car",blipid=50,blipcolor=4},
-	["urban"] = {"Lada Niva",7000, ""},
-	["patrold"] = {"Nissan Patrol Off-Road",5000, ""},
-    ["brawler"] = {"Brawler",10000, ""},
-    ["dubsta3"] = {"Bubsta 6x6",100000, ""},
-    ["rebel2"] = {"Rebel",15000, ""},
-	["fordh"] = {"Ford H",15000, ""},
-	["raptor2017"] = {"Ford Velociraptor",350000, ""},
-    ["sandking"] = {"Sandking",10000, ""},
-	["sandkinghd"] = {"Sandking Monster Truck",550000, ""},
-    ["trophytruck"] = {"The Liberator",75000, ""},
-	["monster"] = {"The Liberator Monster",500000, ""},
-    ["bifta"] = {"Bifta",1000, ""}, -- atvs start here
-    ["blazer"] = {"Blazer",1200, ""},
-    ["dune"] = {"Dune Buggy",8000, ""}
+    _config = {vtype="car",blipid=50,blipcolor=4}
   },
 
   ["Low End"]  = {  -- 30k price cap
-    _config = {vtype="car",blipid=50,blipcolor=4},
-    ["dukes"] = {"Dukes",0, ""}
+    _config = {vtype="car",blipid=50,blipcolor=4}
   },
 
   ["vans"] = {
@@ -154,183 +77,32 @@ cfg.garage_types = {
   },
 
   ["Motorcycles"] = {
-    _config = {vtype="bike",blipid=226,blipcolor=4},
-	["trr"] = {"KTM Duke",5400, ""},
-    ["AKUMA"] = {"Akuma",9000, ""},
-    ["bagger"] = {"Bagger",7000, ""},
-    ["bati"] = {"Bati 801",10000, ""},
-    ["bati2"] = {"Bati 801RR",10000, ""},
-    ["bf400"] = {"BF400",6000, ""},
-	["lectro"] = {"BMW R75 Bobber",10000, ""},
-    ["carbonrs"] = {"Carbon RS",11000, ""},
-    ["cliffhanger"] = {"Cliffhanger",13000, ""},
-	["f131"] = {"Confederate F131 Hellcat",45000, ""},
-    ["double"] = {"Double T",9000, ""},
-    ["enduro"] = {"Enduro",6000, ""},
-    ["faggio2"] = {"Faggio",1000, ""},
-    ["gargoyle"] = {"Gargoyle",10000, ""},
-    ["hakuchou"] = {"Hakuchou",20000, ""},
-	["daemon"] = {"Harley Knucklehead",20000, ""},
-    ["hexer"] = {"Hexer",15000, ""},
-    ["innovation"] = {"Innovation",20000, ""},
-    ["nemesis"] = {"Nemesis",12000, ""},
-    ["pcj"] = {"PCJ-600",7000, ""},
-    ["ruffian"] = {"Ruffian",7000, ""},
-    ["sanchez"] = {"Sanchez",3000, ""},
-    ["sovereign"] = {"Sovereign",1000, ""}, -- looking for replacement
-    ["thrust"] = {"Thrust",12000, ""},
-    ["vader"] = {"Vader",7000, ""},
-    ["vindicator"] = {"Vindicator",12000,""}
+    _config = {vtype="bike",blipid=226,blipcolor=4}
   },
  ----------   
   ["House Garage"] = {
-    _config = {vtype="car",blipid=357,blipcolor=69},
-	  ["2011mazda2"] = {"Mazda 2",500, ""},
-    ["a3quattro"] = {"Audi A3 2",4000, ""},
-    ["2108"] = {"LADA Спутник",300, ""},
-    ["gx460"] = {"Lexus GX460",4000, ""},
-    ["panto"] = {"Panto", 200, ""},
-	
-    ["giulia"] = {"Alfa Romeo Giulia",30000, ""},
-    ["stelvio"] = {"Alfa Romeo Stelvio",35000, ""},
-    ["c5rs6"] = {"Audi RS4 Avant",50000, ""},
-    ["rs6pd600"] = {"Audi RS6",63000, ""},
-    ["r8ppi"] = {"Audi R8",80000, ""},
-    ["sq72016"] = {"Audi SQ7",108000, ""}, 
-    ["s4a"] = {"Audi S4",17000, ""},
-    ["e46"] = {"BMW M3 E46",35000, ""},
-    ["bmwm4"] = {"BMW M4 Drift",40000, ""},
-    ["16m5"] = {"BMW M5",35000, ""},
-    ["e60"] = {"BMW M5 E60",30000, ""},
-    ["m516"] = {"BMW M5 Coupe",45000, ""},
-    ["x5e53"] = {"BMW X5",90000, ""},
-    ["x6m"] = {"BMW X6",140000, ""},
-    ["17m760i"] = {"BMW 760 I",35000, ""},
-    ["q30"] = {"Infinity Q30",35000, ""},
-    ["66fastback"] = {"Fastback Drag",14000, "10 - (less numner better car"},
-    ["fpace"] = {"Jaguar F-pace",80000, ""},
-    ["veln"] = {"Hundai Veln",20000, ""},
-    ["p1lm"] = {"MClaren P1",500000, ""},
-    ["kia"] = {"Kia",14000, ""},
-    ["lada"] = {"Lada Tuning",7000, "Not free yet"},
-    ["urus"] = {"Lamborghini Urus",130000, ""},
-	["18performante"] = {"Lamborghini Huracan",340000,""},
-    ["alfieri"] = {"Maserati Alfieri",70000, ""},
-    ["cls2015"] = {"Mercedes-Benz CLS 2015",130000,""},
-    ["s500w222"] = {"Mercedes-Benz S500",30000, ""},
-    ["g65amg"] = {"Mercedes-Benz G65",180000, ""},
-    ["gl63"] = {"Mercedes GL63",700000, ""},
-    ["c63vip"] = {"Mercedes C63 VIP",90000, ""},
-    ["macla"] = {"Mercedes CLA",85000, ""},
-    ["w222wald"] = {"Mercedes WALD",86000, ""},
-    ["370z"] = {"Nissan Nismo 370z",45000, ""},
-    ["patrold"] = {"Nissan Patrol Off-Road",16000, ""},
-    ["pcs18"] = {"Porsche Cayenne",75000, ""},
-    ["panamera18"] = {"Porsche Panamera Turbo",114000, ""},
-	["aperta"] = {"Ferarri Aperta",400000,""},
-    ["f430s"] = {"Ferrary F430s",300000, ""},
-    ["mst"] = {"Ford Mustang Shelby",34000, ""},
-    ["eleanor"] = {"Ford Mustang Shelby GT500",31000, ""},
-    ["rrst"] = {"Range Rover", 120000, ""},
-    ["wraith"] = {"Rolls Royce", 800000, ""},
-    ["exor"] = {"Chevrolet Camaro Tuning",100000, ""},
-    ["ySbrImpS11"] = {"Subaru Impreza",20000, ""},
-    ["sultanrs"] = {"Sultan RS",18000, ""},
-    ["teslax"] = {"Telsa Model X",300000, ""},
-    ["amarok"] = {"Volkswagen Amarok",46000, ""},
-    ["passat"] = {"Volkswagen Passat",34000, ""},
-
-    ["urban"] = {"Lada Niva",7000, ""},
-	["patrold"] = {"Nissan Patrol Off-Road",5000, ""},
-    ["brawler"] = {"Brawler",10000, ""},
-    ["dubsta3"] = {"Bubsta 6x6",100000, ""},
-    ["rebel2"] = {"Rebel",15000, ""},
-	["fordh"] = {"Ford H",15000, ""},
-	["raptor2017"] = {"Ford Velociraptor",350000, ""},
-    ["sandking"] = {"Sandking",10000, ""},
-	["sandkinghd"] = {"Sandking Monster Truck",550000, ""},
-    ["trophytruck"] = {"The Liberator",75000, ""},
-	["monster"] = {"The Liberator Monster",500000, ""},
-    ["bifta"] = {"Bifta",1000, ""}, -- atvs start here
-    ["blazer"] = {"Blazer",1200, ""},
-    ["dune"] = {"Dune Buggy",8000, ""},
-
-    ["trr"] = {"KTM Duke",5400, ""},
-    ["AKUMA"] = {"Akuma",9000, ""},
-    ["bagger"] = {"Bagger",7000, ""},
-    ["bati"] = {"Bati 801",10000, ""},
-    ["bati2"] = {"Bati 801RR",10000, ""},
-    ["bf400"] = {"BF400",6000, ""},
-	["lectro"] = {"BMW R75 Bobber",10000, ""},
-    ["carbonrs"] = {"Carbon RS",11000, ""},
-    ["cliffhanger"] = {"Cliffhanger",13000, ""},
-	["f131"] = {"Confederate F131 Hellcat",45000, ""},
-    ["double"] = {"Double T",9000, ""},
-    ["enduro"] = {"Enduro",6000, ""},
-    ["faggio2"] = {"Faggio",1000, ""},
-    ["gargoyle"] = {"Gargoyle",10000, ""},
-    ["hakuchou"] = {"Hakuchou",20000, ""},
-	["daemon"] = {"Harley Knucklehead",20000, ""},
-    ["hexer"] = {"Hexer",15000, ""},
-    ["innovation"] = {"Innovation",20000, ""},
-    ["nemesis"] = {"Nemesis",12000, ""},
-    ["pcj"] = {"PCJ-600",7000, ""},
-    ["ruffian"] = {"Ruffian",7000, ""},
-    ["sanchez"] = {"Sanchez",3000, ""},
-    ["sovereign"] = {"Sovereign",1000, ""}, -- looking for replacement
-    ["thrust"] = {"Thrust",12000, ""},
-    ["vader"] = {"Vader",7000, ""},
-    ["vindicator"] = {"Vindicator",12000,""}
+    _config = {vtype="car",blipid=357,blipcolor=69}
   },
   
   ["police"] = {
-    _config = {vtype="car",blipid=56,blipcolor=38,permissions={"police.vehicle"}},
-    ["polgs350"] = {"Police Lexus",0, "police"},
-    ["policebee"] = {"Police Turtle",0, "police"},
-    ["policegt350r"] = {"Police Mustang GT",0, "police"},
-    ["police"] = {"Police Cruiser",0, "police"},
-    ["polchiron"] = {"Bugatti Chiron",0, "police"},
-    ["police2"] = {"Dodge Sheriff",0, "police"},
-    ["police66"] = {"Police FORD SUV",0, "police"},
-    ["police6"] = {"Police K9",0, "police"},
-    ["sheriff3"] = {"Sheriff",0, "police"},
-    ["sheriff2"] = {"Sheriff SUV",0, "police"},
-    ["sheriff"] = {"2015 Sheriff",0, "police"},
-    ["riot"] = {"SWAT",0, "police"},
-    ["flatbed"] = {"Tow Truck",0, "police"},
-	  ["fbi"] = {"Unmarked",0, "police"}
+    _config = {vtype="car",blipid=56,blipcolor=38,permissions={"police.vehicle"}}
   },
   ["Cadet"] = {
-    _config = {vtype="car",blipid=56,blipcolor=38,permissions={"Cadet.vehicle"}},
-	  ["polgs350"] = {"Police Lexus",0, "police"},
-    ["policebee"] = {"Police Turtle",0, "police"}
+    _config = {vtype="car",blipid=56,blipcolor=38,permissions={"Cadet.vehicle"}}
   },
   ["Bounty"] = {
-    _config = {vtype="car",blipid=56,blipcolor=38,permissions={"Bounty.vehicle"}},
-    ["fbi"] = {"Unmarked",0, "police"}
+    _config = {vtype="car",blipid=56,blipcolor=38,permissions={"Bounty.vehicle"}}
   },
   ["emergency"] = {
-    _config = {vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}},
-    ["vtp1"] = {"Линейка",0, "emergency"},
-    ["vlcc"] = {"Bani4arka",0, "emergency"},
-    ["vlcg"] = {"Dacia Duster",0, "emergency"},
-	["emsford"] = {"Ford",4000, "emergency"},
-	["firetruk"] = {"firetruk",0, "emergency"}
-  },
+    _config = {vtype="car",blipid=50,blipcolor=3,permissions={"emergency.vehicle"}}
   ["Police Helicopters"] = {
-    _config = {vtype="car",blipid=43,blipcolor=38,radius=5.1,permissions={"police.vehicle"}},
-    ["polmav"] = {"Maverick",0, "emergency"}
+    _config = {vtype="car",blipid=43,blipcolor=38,radius=5.1,permissions={"police.vehicle"}}
   },
    ["EMS Helicopters"] = {
-    _config = {vtype="car",blipid=43,blipcolor=1,radius=5.1,permissions={"emergency.vehicle"}},
-    ["supervolito2"] = {"EMS",0, "emergency"}
+    _config = {vtype="car",blipid=43,blipcolor=1,radius=5.1,permissions={"emergency.vehicle"}}
   },
    ["Mafia Garage"] = {
-    _config = {vtype="car",blipid=50,blipcolor=3,permissions={"mafia.vehicle"}},
-	["infernus"] = {"Infernus", 0, ""}, -- THIS IS JUST AN EXAMPLE , ADD MORE IF YOU WANT.
-	["wraith"] = {"Rolls Royce", 0, ""}, -- THIS IS JUST AN EXAMPLE , ADD MORE IF YOU WANT.
-	--["g65amg"] = {"Mercedes G65 AMG", 0, ""}, -- THIS IS JUST AN EXAMPLE , ADD MORE IF YOU WANT.
-	--["s500w222"] = {"Mercedes S500 W222", 0, ""}, -- THIS IS JUST AN EXAMPLE , ADD MORE IF YOU WANT.
+    _config = {vtype="car",blipid=50,blipcolor=3,permissions={"mafia.vehicle"}}
   },
   ["Pilotla"] = {
     _config = {vtype="plane",blipid=16,blipcolor=30,permissions={"pilot.vehicle"}},
@@ -345,12 +117,10 @@ cfg.garage_types = {
     ["vestra"] = {"Plane",0, "vestra"}
   },
   ["airH"] = {
-    _config = {vtype="plane",blipid=43,blipcolor=30,permissions={"air.vehicle"}},
-     ["volatus"] = {"Helicopter",0, "volatus"}
+    _config = {vtype="plane",blipid=43,blipcolor=30,permissions={"air.vehicle"}}
   }, 
   ["uber"] = {
-    _config = {vtype="car",blipid=50,blipcolor=81,permissions={"uber.vehicle"}},
-    ["taxi2"] = {"Yellow Taxi",0, "taxi2"}
+    _config = {vtype="car",blipid=50,blipcolor=81,permissions={"uber.vehicle"}}
   },
   ["UPS"] = {
     _config = {vtype="car",blipid=85,blipcolor=81,permissions={"ups.vehicle"}},
